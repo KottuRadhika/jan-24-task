@@ -1,0 +1,18 @@
+section{
+    background-color:pink;
+}
+input:hover{
+    background-color: mediumaquamarine;
+}
+select:hover{
+    background-color: mediumaquamarine;
+}
+h1{
+      color: blue;
+}
+legend{
+    color: green; 
+}
+form{
+    background-color: aquamarine;
+}

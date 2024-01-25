@@ -1,0 +1,81 @@
+<html>
+    <head lang="en">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=0.1">
+        <title>Overall content in the webpage</title>
+        <link rel="stylesheet" href="style4.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <nav class="navbar-inverse" style="position: sticky;top:0px;z-index:1000px;">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#" style="color:aquamarine;text-decoration: underline">Created by Radhika</a>
+        </div>
+            <div class="navbar-collapse collapse" id="navbar" style="background-color:darkgreen;">
+            <ul class="nav navbar-nav">
+                <li><a href="hover.html" style="color:cyan;text-decoration: underline">Hover</a></li>
+                 <li><a href="trans.html"style="color:powderblue;text-decoration: underline">Transformation & Animations</a></li>
+                 <li><a href="media.html" style="color:lime;text-decoration: underline">MediaQueries</a></li>
+                 <li><a href="SH.html"style="color:hotpink;text-decoration: underline">Show & Hide</a></li>
+                 <li><a href="varChange.html"style="color:coral;text-decoration: underline">Variable Change</a></li>
+                 <li><a href="form.html"style="color:navajowhite;text-decoration: underline">form</a></li>
+                </ul>
+            </div>
+        </nav> 
+        <section id="form.html">
+            
+        <center>
+        <h1>Form To Fill</h1>
+            <form>
+            <fieldset>
+                <legend>Form</legend>
+                <label  for="name">Name:</label>
+                <input type="text" id="name" placeholder="Enter Your Full Name" name="name" required>
+                <br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="example@gmail.com" name="email" required>
+                <br><br>
+                <label for="password">Password:</label>
+                <input type="password" id="password"  name="password">
+                <br><br>
+                <label for="dateofbirth">DOB:</label>
+                <input type="date" id="dateofbirth"  name="dateofbirth">
+                <br><br>
+                <label for="age">Age:</label>
+                <input type="number" id="age"  name="age">
+                <br><br>
+                <label for="file">Upload Resume:</label>
+                <input type="file" id="file"  name="file" required>
+                <br><br>
+                <label for="gender">Gender:</label>
+                <select >
+                <option value="select gender">Select gender</option>
+                <option value="male">Male</option>
+                <option vaue="female">Female</option>
+                <option value="transgender">Transgender</option>
+                </select>
+                <br><br>
+                <label for="country">Country:</label>
+                <select >
+                <option value="select your country">Select Your country</option>
+                <option value="India">India</option>
+                <option vaue="Japan">Japan</option>
+                <option value="Russia">Russia</option>
+                </select>
+                <br><br>
+                <button type="submit">Submit</button>
+                </fieldset>
+            </form>
+        </center>
+
+        </section>
+    </body>
+</html>

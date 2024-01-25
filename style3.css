@@ -1,0 +1,33 @@
+body{
+     background:linear-gradient(#24074d 20%,#0c074d 40%,#072c4d 60%,#074d1b 80%,#4b4d07 100%,#4d2007 120%,#4d0707 140%);
+            }
+#showme{
+    font-size: 70px;
+    background-color: fuchsia;
+    border:2px solid black;
+    color:greenyellow;
+    
+    
+}
+body{
+    background-color: aqua;
+    
+    
+}
+#btn{
+    background-color: darkorange;
+    border: 2px dotted red;
+    width: 70px;
+    height:50px;
+    
+    
+    
+}
+#img1{
+    box-shadow: 10px 5px 10px 5px;
+    width:200px;
+    height:200px;
+    border-radius:80px;
+    border:2px dashed blue;
+    display:none;
+}
